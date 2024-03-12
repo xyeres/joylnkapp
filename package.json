@@ -1,4 +1,13 @@
 {
   "name": "joylnkapp",
-  "packageManager": "yarn@4.1.1"
+  "packageManager": "yarn@4.1.1",
+  "workspaces": [
+    "modules/*"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.2"
+  }
 }
